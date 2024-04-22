@@ -22,8 +22,8 @@ public class FrogSimulation
 		hops++;
 		if(position<0)
 			return false;
-		else if (distance >= goalDistance)
-			return true
+		else if (position >= goalDistance)
+			return true;
 				}
 			return false;
 }
@@ -42,7 +42,7 @@ for(int i = 0; i<num; i++){
 if(simulate())
 count++;
 }
-return count/num;
+return (double) count/num;
 }
 
 

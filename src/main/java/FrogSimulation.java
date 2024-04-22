@@ -14,12 +14,12 @@ public class FrogSimulation
 	//implementation is below, but not important
 	
 	public boolean simulate(){ 
-	int hops = 0;
+	
 	int position = 0;
 
 	for(int i = 0; i<maxHops; i++){
 		position +=hopDistance();
-		hops++;
+		
 		if(position<0)
 			return false;
 		else if (position >= goalDistance)

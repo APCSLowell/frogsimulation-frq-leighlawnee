@@ -36,13 +36,13 @@ int hops = 0;
 	public double runSimulations(int num)
 	{ 
 	
-int count = 0;
+double count = 0;
 
 for(int i = 0; i<num; i++){
 if(simulate() == true)
 count++;
 }
-return (double) count/num;
+return count/num;
 }
 
 

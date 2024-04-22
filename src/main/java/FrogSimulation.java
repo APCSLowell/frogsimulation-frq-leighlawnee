@@ -24,8 +24,6 @@ int hops = 0;
 			return false;
 		else if (position >= goalDistance)
 			return true;
-		else
-			return false;
 	}
 			return false;
 }

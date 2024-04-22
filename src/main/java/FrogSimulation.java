@@ -41,7 +41,7 @@ int hops = 0;
 int count = 0;
 
 for(int i = 0; i<num; i++){
-if(simulate())
+if(simulate() == true)
 count++;
 }
 return (double) count/num;
